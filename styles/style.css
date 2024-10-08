@@ -1,1 +1,44 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
+
+/* New Color Palette:
+* Lightest (Text):         #f2fbf2      (text, contrast with dark)
+* Dark Green (Primary):    #005a00      
+* Light Green (Secondary): #72b372      (canvas background)
+* Reddish-Brown (Accent):  #b75858
+*/
+
+.bg-info {
+    background-color: #4A4E69 !important; /* Light green for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #9A8C98;            /* Dark green for brand name & nav links for visibility */
+}
+
+.btn-info {
+    color: #F2E9E4;            /* Lightest shade for text on info button for contrast */
+    background-color: #C9ADA7; /* Light green for button background */
+    border-color: #22223B;     /* Dark green for button border */
+}
+
+.btn-primary {
+    color: #F2E9E4;            /* Lightest shade for text */
+    font-size: 150%;
+    background-color: #9A8C98; /* Dark green for primary button background */
+    border-color: #22223B;     /* Reddish-brown for border to use as accent */
+    border-width: thick;
+}
+
+body {
+    background-color: #F2E9E4; /* Lightest shade for body background to follow the 60% rule */
+}
+
+.navbar-brand{
+    font-family:'Edu AU VIC WA NT Dots', serif;
+    font-size: 2.25rem;
+}
 
